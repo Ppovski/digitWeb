@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Сподели искуство</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <style>
+    
+    .navbar {
+      margin-bottom: 0;
+      border-radius: 0;
+    }
+    
+    .navbar-brand{
+    	background-image: url("logo.png");
+    }
+    textarea{
+		width: 400px;
+		height: 100px;
+		border: 3px solid #d62929;
+		padding: 5px;
+		font-family: Tahoma, sans-serif;
+		background-position: bottom right;
+		background-repeat: no-repeat;
+    }
+    .button {
+    	width: 50px;
+		height: 25px;
+
+    }
+
+    body{
+			background-image: url("156.png");         
+			background-repeat: no-repeat;
+			background-size: cover;
+		}
+	.logo{
+		height: 50px;
+		width: 160px;
+	}
+
+
+  </style>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>                        
+      </button>
+      <a class="navbar-left" href="#"><img class="logo" src="C:\Users\Asus\Desktop\digit\posledno logo.png"></a>
+    </div>
+    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="#" class="btn btn-lg btn-about">Дома</a></li>
+        <li><a href="#" class="btn btn-lg btn-about">За нас</a></li> 
+        <li class="active"><a href="#" class="btn btn-lg btn-about">Искуства</a></li>
+        <li><a href="#" class="btn btn-lg btn-about">Контакт</a></li>
+      </ul>
+    </div>
+  </div>
+
+</nav>
+<br><br>
+
+  <div class="container text-center">
+    <h1>Споделете го вашето искуство</h1> 
+    <br><br><br>   
+    <button type="button" class="btn btn-danger btn-lg btn-block" data-toggle="collapse" data-target="#demo">Сподели искуство</button>
+  	<div id="demo" class="collapse">
+  	<textarea class="form-control" rows="10" id="comment"></textarea>
+  	<button type="button" class="btn btn-danger" data-toggle="collapse" data-target="#demo" onclick="SpodeliIskustvo()">Сподели</button>
+
+  	<script>
+    
+    function SpodeliIskustvo(){
+    	if(document.getElementById("comment").value == '')
+	{
+    	document.getElementById("comment").style.display ="none";
+   
+	} else{
+        var btn=document.createElement("textarea");
+        var txt=document.getElementById("comment").value;
+        document.getElementById("comment").value='';
+        btn.value=txt; 
+        document.body.appendChild(btn);
+    }
+         
+  }
+</script>
+
+	
+  </div>
+</div>
+ <br>
+ <br> 
+
+</body>
+</html>

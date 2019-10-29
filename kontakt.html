@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Контакт</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="kontakt.css" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+</head>
+<body>
+
+<nav class="navbar navbar-inverse">
+  <div class="container-fluid">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-left" href="#"><img class="logo" src="posledno logo.png"></a>
+    </div>
+    <div class="collapse navbar-collapse navbar-right" id="myNavbar">
+      <ul class="nav navbar-nav">
+        <li><a href="DIgitGlavna.html" class="btn btn-lg btn-about">Почетна</a></li>
+
+        <li><a href="iskustva.html" class="btn btn-lg btn-about">Искуства</a></li>
+        <li><a href="za%20nas.html" class="btn btn-lg btn-about">За Нас</a></li>
+        <li class="active"><a href="kontakt.html" class="btn btn-lg btn-about">Контакт</a></li>
+      </ul>
+    </div>
+  </div>
+
+</nav>
+<br><br>
+
+
+<div style="background-color: rgba(192,192,192,.5); margin-left: 35px;" class="pbg container text-right">
+  <p><strong style="float:left; font-size: 45px;">Контактирај:</strong><strong>Контакт</strong></p>
+  <br>
+  <p1><strong>Е-маил: posilniodrakot@yahoo.com</strong></p1>
+  <br><br>
+  <p2><strong>Телефон: 02 2832 532</strong></p2>
+</div>
+
+<form id="loginform" name="loginform" method="post">
+  <fieldset style="margin-right: 600px; margin-left: 50px;">
+    <div style ="margin-right:-456px; " class="pbg row">
+      <label for="name"><font color='#000000'><strong>Име и презиме:</strong></font></label><br />
+      <input id="name" class="input" name="name" type="text" value="" size="20" /><br />
+    </div>
+    <div style ="margin-right:-456px; " class="pbg row">
+      <label for="email"><font color='#000000'><strong>Е-маил:</strong></font></label><br />
+      <input id="email" class="input" name="email" type="text" value="" size="20" /><br />
+    </div>
+    <div style ="margin-right:-456px; " class="pbg row">
+      <label for="message"><font color='#000000'><strong>Порака:</strong></font></label><br />
+      <textarea id="message" class="input" name="message" rows="7" cols="30"></textarea><br />
+    </div>
+    <input id="submit_button" type="submit" value="Испрати" />
+  </fieldset>
+</form>
+</body>
+</html>

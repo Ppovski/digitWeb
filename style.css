@@ -1,0 +1,164 @@
+
+        #carousel {
+            position: relative;
+            width:600px;
+            /*margin:0 auto;*/
+        }
+ 
+        #slides {
+            overflow: hidden;
+            position: relative;
+            width: 100%;
+            height: 250px;
+        }
+ 
+        #slides ul {
+            list-style: none;
+            width:100%;
+            height:250px;
+            margin: 0;
+            padding: 0;
+            position: relative;
+        }
+ 
+        #slides li {
+            width:100%;
+            height:250px;
+            float:left;
+            text-align: left;
+            position: relative;
+            font-family:lato, sans-serif;
+        }
+        /* Styling for prev and next buttons */
+        .btn-bar{
+            width:60%;
+            margin:0 auto;
+            display:block;
+            position:relative;
+            top:40px;
+        }
+ 
+        #buttons {
+            padding:0 0 5px 0;
+            /*float:right;*/
+        }
+ 
+        #buttons a {
+            text-align:center;
+            display:block;
+            font-size:50px;
+            float:left;
+            outline:0;
+            margin:0 60px; 
+            color:#b14943;
+            text-decoration:none;
+            display:block;
+            padding:9px;
+            width:35px;
+        }
+ 
+        a#prev:hover, a#next:hover {
+            color:#FFF;
+            text-shadow:.5px 0px #b14943;  
+        }
+ 
+        .quote-phrase, .quote-author {
+            font-family:sans-serif;
+            font-weight:300;
+            display: table-cell;
+            vertical-align: middle;
+            padding: 5px 20px;
+            font-family:'Lato', Calibri, Arial, sans-serif;
+        }
+ 
+        .quote-phrase {
+            height: 200px;
+            font-size:24px;
+            color:#FFF;
+            font-style:italic;
+            text-shadow:.5px 0px #b14943;  
+        }
+ 
+        .quote-marks {
+            font-size:30px;
+            padding:0 3px 3px;
+            position:inherit;
+        }
+ 
+        .quote-author {
+            font-style:normal;
+            font-size:20px;
+            color:#b14943;
+            font-weight:900;
+            height: 30px;
+            float:right;
+        }
+ 
+        .quoteContainer, .authorContainer {
+            display: table;
+            width: 100%;
+        }
+ 
+    /*slider gore*/
+       
+        .navbar-brand{
+            background-image: url("logo.png");
+        }
+ 
+        .kopce{
+            font-weight: 800;
+            float:left;
+        }
+ 
+        .navbar{
+            border-radius: 0;
+        }
+ 
+        .sidenav {
+            padding-top: 20px;
+            background-color: #f1f1f1;
+            height: 100%;
+        }
+ 
+        footer {
+            background-color: #555;
+            color: white;
+            padding: 15px;
+        }
+        body{
+            background-image: url("156.png");        
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+ 
+        .logo{
+            height: 50px;
+            width: 160px;
+           
+        }
+        #krugce{
+            margin-left:125px;
+            margin-top:50px;
+            width:350px;
+            height:350px;
+            border:50px solid #d9534f;
+            border-radius:400px;
+            text-align: center;
+            background-color:rgba(192,192,192,.5);
+        }
+        #textSection{
+            margin-top:30%;
+            font-size:75px;
+            font-weight:bold;
+
+        }
+        #donacii{
+            padding-bottom:125px;
+            margin-left:175px;
+            margin-top:3%;
+        }
+        #donacii input{
+            height:30px;
+        }
+
+

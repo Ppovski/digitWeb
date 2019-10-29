@@ -1,0 +1,55 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+
+.navbar-brand{
+    background-image: url("logo.png");
+}
+
+body{
+    background-image: url("156.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    height: 50px;
+    width: 160px;
+}
+
+input[type=text], select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 15px 0px;
+    display: inline-block;
+    border: 1px solid #d62929;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+input[type=submit] {
+    width: 25%;
+    background-color: #d62929;
+    color: white;
+    padding: 14px 20px;
+    margin: 15px 0px;
+    border: none;
+    border-color: #3CBC8D;
+    border-radius: 4px;
+    cursor: pointer;
+}
+input, textarea {
+    background: none;
+    border: 1px solid #d62929;
+    color: white;
+    border-radius: 0;
+    outline: 0;
+    width: 100%;
+}
+h1{
+    margin-left: 20px;
+}
+.pbg{
+    background-color: rgba(192,192,192,.5);
+    padding: 10px;
+}

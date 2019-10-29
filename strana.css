@@ -1,0 +1,30 @@
+.navbar {
+    margin-bottom: 0;
+    border-radius: 0;
+}
+
+
+textarea{
+    width: 400px;
+    height: 100px;
+    border: 3px solid #d62929;
+    padding: 5px;
+    font-family: Tahoma, sans-serif;
+    background-position: bottom right;
+    background-repeat: no-repeat;
+}
+.button {
+    width: 50px;
+    height: 25px;
+
+}
+
+body{
+    background-image: url("156.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.logo{
+    height: 50px;
+    width: 160px;
+}
